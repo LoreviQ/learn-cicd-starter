@@ -32,7 +32,7 @@ jobs:
       - name: Check formatting
         run: test -z $(go fmt ./...)
 
-      - name: Run staticcheck
-        run: test -z $(staticcheck ./...)
+      - name: staticcheck
+        run: staticcheck ./...
     
         
