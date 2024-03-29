@@ -31,6 +31,3 @@ jobs:
 
       - name: staticcheck
         uses: go version
-            
-    
-        
