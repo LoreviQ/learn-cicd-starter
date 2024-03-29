@@ -30,4 +30,4 @@ jobs:
         run: test -z $(go fmt ./...)
 
       - name: staticcheck
-        uses: go version
+        run: go version
